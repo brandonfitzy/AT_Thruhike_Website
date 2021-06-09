@@ -11,12 +11,12 @@
 <body>
     <div class="container">
         <header class="header">
-            <a href="/">Minimalistic Website</a>
+            <a class="link_title" href="/">Minimalistic Website</a>
         </header>
         <nav class="menu">
             <a href="/">Home</a> &nbsp; &nbsp; &nbsp;
-            <a href="/about.html">About</a> &nbsp; &nbsp; &nbsp;
-            <a href="/contact.html">Contact</a>
+            <a href="about.html">About</a> &nbsp; &nbsp; &nbsp;
+            <a href="contact.html">Contact</a>
         </nav>
 
         <aside> 
@@ -25,7 +25,10 @@
         </aside>
 
         <article class="main">
-            <img src="http://placehold.it/500x300" alt="">
+            <div id="home_img">
+                <img src="http://placehold.it/500x300" alt="home image">
+            </div>
+            
             <p>Lorem ipsum</p>
             <p>Lorem ipsum</p>
             <p>Lorem ipsum</p>
@@ -34,7 +37,7 @@
 
         <footer class="foot">
 
-            &copy; 2030 Minimalistic Website &nbsp; Designed by Brandon Fitzpatrick
+            &copy; 2030 Minimalistic Website &nbsp; <span class="separater">|</span> Designed by Brandon Fitzpatrick
 
         </footer>
     </div>
